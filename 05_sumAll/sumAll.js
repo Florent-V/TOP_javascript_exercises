@@ -1,4 +1,9 @@
-const sumAll = function() {
+const sumAll = function(start, end) {
+    rep = 0;
+    for (let i=start; i <= end ; i++) {
+        rep += i;
+    }
+    return rep;
 
 };
 
